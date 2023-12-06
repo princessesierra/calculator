@@ -1,0 +1,80 @@
+html {
+    background-color: lightgrey;
+}
+
+.calcframe {
+    height: 38rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    display: block;
+    border: black 10px solid;
+        background-color: black;
+}
+
+.calcscreen {
+    height: 12rem;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    border: solid burlywood 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5%;
+    justify-content: space-evenly;
+}
+
+.calcbuttons {
+    height: 25rem;
+    border-radius: 10px;
+    background-color: salmon;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    border: firebrick 5px solid;
+}
+
+.digitholder {
+    border: 2px solid black;
+}
+
+.digit{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.digit.clear, .digit.clear-all {
+    background-color: firebrick;
+    color: blanchedalmond;
+}
+
+.digit.equal {
+    background-color: green;
+    color: blanchedalmond;
+}
+
+.digit.operator {
+    background-color: darkslategrey;
+    color: navajowhite;
+}
+
+.digit.delete {
+    background-color: white;
+    color: darkslategray;
+}
+
+.output1, .output2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.output1 {
+    font-size: 1.5rem;
+}
+
+.output2 {
+    font-size: 2rem;
+}
