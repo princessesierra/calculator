@@ -1,4 +1,4 @@
-#Calculator - by Anushka S. Chalakal
+#Calculator - by Anushka S. Chalakal  
 This is a simple project I conceived of and created from scratch using HTML, CSS and Javascript. While I referred to other calculators to see how design and functions were generally handled, the final result is my own. This is the first such project I have undertaken as I study web development.
 
 What the calculator can do:  
